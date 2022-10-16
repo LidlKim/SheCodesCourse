@@ -32,7 +32,7 @@ form {
 }
 .current {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  display: inline;
+  display: block;
   background-color: #e8abfc;
   margin-bottom: 20px;
   border-radius: 30%;
