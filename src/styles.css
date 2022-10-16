@@ -1,0 +1,43 @@
+.search {
+  background: #fda6fe;
+  border-radius: 20%;
+  padding: 5px;
+}
+.search:hover {
+  background: #3bb1f9;
+  color: #19fc3f;
+}
+
+.card {
+  left: 20px;
+
+  font-size: 20px;
+}
+.card-bodys {
+  text-align: left;
+}
+.card.bodyss {
+  text-align: right;
+}
+
+.card-title {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 30px;
+}
+form {
+  text-align: left;
+}
+.col-3 {
+  font-size: 30px;
+}
+.current {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #e8abfc;
+  margin-bottom: 20px;
+  border-radius: 30%;
+  padding: 20px;
+}
+.current:hover {
+  background-color: #3bb1f9;
+  color: #19fc3f;
+}
