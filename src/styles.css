@@ -37,6 +37,7 @@ form {
   margin-bottom: 20px;
   border-radius: 30%;
   padding: 15px;
+  padding: 20px;
 }
 .current:hover {
   background-color: #3bb1f9;
