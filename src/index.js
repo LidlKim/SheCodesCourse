@@ -26,12 +26,12 @@ function searchPlease(event) {
 let tititle = document.querySelector("#search-form");
 tititle.addEventListener("submit", searchPlease);
 function displayWeatherCondition(response) {
-  let temp = response.data.main.temp;
+  let temp = Math.round(response.data.main.temp);
   console.log(temp);
   let celly = document.querySelector("#celly");
   celly.innerHTML = `${temp}`;
   let tititle = document.querySelector("#tititle");
-  tititle.innerHTML = Math.round(response.data.name);
+  tititle.innerHTML = response.data.name;
 }
 
 //Current Location

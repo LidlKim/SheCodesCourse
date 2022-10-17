@@ -22,7 +22,7 @@
 
 .card-title {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 30px;
+  font-size: 20px;
 }
 form {
   text-align: left;
@@ -32,14 +32,17 @@ form {
 }
 .current {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  display: block;
   background-color: #e8abfc;
   margin-bottom: 20px;
   border-radius: 30%;
-  padding: 5px, 8px;
+  padding: 3px;
   border: 5px;
+  margin: 50px;
 }
 .current:hover {
   background-color: #3bb1f9;
   color: #19fc3f;
+}
+body {
+  max-width: 600px;
 }
