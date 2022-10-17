@@ -46,3 +46,9 @@ form {
 body {
   max-width: 600px;
 }
+.opensource {
+  color: #d548b0;
+}
+.me {
+  color: #a008d3;
+}
