@@ -54,4 +54,7 @@ body {
 }
 .me {
   color: #a008d3;
+  text-align: center;
+  display: block;
+  margin: auto;
 }
